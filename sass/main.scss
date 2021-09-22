@@ -1,0 +1,24 @@
+// abstracts 
+
+@import url("./abstracts/functions");
+@import url("./abstracts/mixins");
+@import url("./abstracts/_variables.scss");
+
+//  BASE
+
+@import url("./base/animations");
+@import url("./base/base");
+@import url("./base/typography");
+@import url("./base/utilities");
+
+// components
+
+@import url("./components/_button.scss");
+
+// Layout
+
+@import url("./layout/header");
+
+// Pages
+
+@import url("./pages/home");
