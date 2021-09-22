@@ -1,5 +1,6 @@
 # Brille-hus
-Dette er prosjekt for kurs.
+
+Driver med designer et eksempel nettside for netshop for brille salg. 
 
 # Setup av prosjekt 
 
