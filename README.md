@@ -35,3 +35,13 @@ linux terminal / Windows powershell
 § npm run compile:sass
 
 § live-server 
+
+
+# Responsiv Design
+
+mobil 375px 
+
+table 768px 
+
+Desktop 1200px 
+
