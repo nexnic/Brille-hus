@@ -1,0 +1,72 @@
+body {
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../assets/font/Lato/Lato-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fugaz';
+    src: url(../../assets/font/Fugaz_One/FugazOne-Regular.ttf) format('truetype');
+}
+
+.heading-primary {
+    &--nav {
+        color: $color-white;
+        font-size: 3.5rem;
+    }
+
+    &--main {
+        color: $color-white;
+        font-size: 8rem;
+        letter-spacing: 3rem;
+    }
+
+    &--sub {
+        color: $color-white;
+        font-size: 2.4rem;
+    }
+
+    
+}
+
+
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+h6 {
+    text-transform: uppercase;
+    font-family: "fugaz";
+}
+
+p {
+    font-family: "Lato";
+}

@@ -1,52 +1,31 @@
 // abstracts 
 
-@import url("./abstracts/functions");
-@import url("./abstracts/mixins");
-@import url("./abstracts/_variables.scss");
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
 //  BASE
 
-@import url("./base/animations");
-@import url("./base/base");
-@import url("./base/typography");
-@import url("./base/utilities");
+@import "base/base";
+@import "base/animations.scss";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
 // components
 
-@import url("./components/_button.scss");
+@import "components/button";
+@import "components/menu";
+@import "components/advertising";
+@import "components/product";
 
 // Layout
 
-@import url("./layout/header");
+@import "layout/header";
+@import "layout/nav";
 
 // Pages
 
-@import url("./pages/home");
+@import "pages/home";
 
-.container {
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 15px;
-    background-color: orange;
-    border-radius: 50%;
-}
 
-.bar1, .bar2, .bar3 {
-    width: 25px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;    
-}
-
-.change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-    opacity: 0;
-}
-
-.change .bar3 {
-    transform: rotate(45deg) translate(-8px, -8px);
-}

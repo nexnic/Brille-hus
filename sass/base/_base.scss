@@ -1,11 +1,21 @@
-* {
-    font-size: 1.5rem;
-    font-family: "Lato" Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+*,
+*::after,
+*::before {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //This defines what 1rem is 
+    font-size: 62.5%;
 }
 
 body {
-    
+    box-sizing: border-box;
+    background-color: $color-grey-light-2;
+}
+
+main {
+    padding: 3rem;
 }

@@ -1,0 +1,31 @@
+.product {
+    perspective: 150rem;
+    position: relative;
+    height: 52rem;
+
+    &__side {
+        height: 52rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        overflow: hidden;
+
+        &--font {
+            background-color: $color-white;
+        }
+
+        &--back {
+            transform:rotateY(180deg);
+
+        }
+    }
+    
+
+    &__background  {
+        &--logo {
+            background-image: url(../../assets/img/Logo_small.svg);
+        }
+    }
+}

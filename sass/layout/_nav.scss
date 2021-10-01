@@ -1,0 +1,19 @@
+.navigation_box{
+    background-color: $color-primary-dark;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: noen;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.logo__img {
+    padding-bottom: 1rem;
+    position: relative;
+    left: 1rem;
+}

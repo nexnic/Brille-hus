@@ -1,0 +1,17 @@
+.advertising {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    gap: 3rem;
+
+
+    &__box {
+        width: 50vh;
+        height: 50vh;
+        background-color: $color-primary;
+        border-radius: 1rem;
+        box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.2);
+    }
+}

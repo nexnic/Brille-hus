@@ -1,0 +1,15 @@
+@mixin clearfix{
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .heading-primary {
+       &--main{
+           font-size: 0.5rem;
+       }
+    }
+}

@@ -1,4 +1,4 @@
-//color 
+
 
 //color primary
 
@@ -8,12 +8,24 @@ $color-primary-dark: #274BA8;
 
 //Color secondary
 
-$color-secondary: #ec6c01
+$color-secondary: #ec6c01;
 $color-secondary-dark: #db6348;
 
 //Color 3rd
 
 $color-triadic: #9CED1F;
+$color-grey-light-1:#f7f7f7;
+$color-grey-light-2: #eeeeee;
 $color-gray-dark: #777;
+$color-gray-dark-2: #999;
 $color-white:#fff;
 $color-black:#000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+// GRID
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 8rem;
