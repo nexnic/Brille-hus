@@ -1,12 +1,15 @@
 .product {
     perspective: 150rem;
     -moz-perspective: 150rem;
+    position: relative;
     height: 52rem;
     width: 32rem;
     background-color: $color-primary;
     border-radius: 3rem;
     border: 1rem solid $color-primary;
     list-style: none;
+
+    
 
     &__side {
         height: 50rem;
@@ -25,11 +28,23 @@
         }
 
         &--back {
-            transform: rotate(180deg);
-            
+            transform: rotateY(180deg);
+
+            &-1 {
+                background-color:$color-white;
+            }
         }
     }
 
+    &__container {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 78%;
+        width: 100%;
+        top:13%;
+    }
     &:hover &__side--front {
         transform:rotateY(-180deg);
     }
@@ -63,6 +78,7 @@
             background-repeat: no-repeat;
         }
     }
+
     &__heading {
         display: inline-block;
         position: relative;
@@ -93,5 +109,7 @@
         left: 2rem;
         top:45%;
     }
+
+   
     
 }
