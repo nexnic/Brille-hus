@@ -40,10 +40,36 @@
         display: flex;
         position: relative;
         flex-direction: column;
-        flex-wrap: nowrap;
-        height: 78%;
+        background-color: orange ;
         width: 100%;
-        top:13%;
+
+        &__picture {
+            position: relative;
+            background-image: url(../../assets/img/Logo_small.svg);
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 4rem;
+            margin-top: 1rem;
+
+            &--heading{
+                height: 10rem;
+                background-image: url(../../assets/img/productheader.svg);
+                background-position: top;
+                background-repeat: no-repeat;
+
+            }
+        }
+        &--bb{
+            background-color: aqua;
+        }
+
+        &--bh {
+            background-color: orange;
+        }
+
+        &--bn {
+            background-color: orangered;
+        }
     }
     &:hover &__side--front {
         transform:rotateY(-180deg);
@@ -68,14 +94,6 @@
             background-image: url(../../assets/img/productheader.svg);
             background-repeat: no-repeat;
             background-position: top;
-        }
-
-        &--item {
-            position: relative;
-            background-image: url(../../assets/img/product/item1.svg);
-            background-position: top;
-            background-blend-mode: screen;
-            background-repeat: no-repeat;
         }
     }
 
