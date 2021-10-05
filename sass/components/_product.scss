@@ -42,6 +42,7 @@
         flex-direction: column;
         background-color: orange ;
         width: 100%;
+        justify-content: center;
 
         &__picture {
             position: relative;
@@ -52,11 +53,12 @@
             margin-top: 1rem;
 
             &--heading{
-                height: 10rem;
+                position: relative;
+                height: 9rem;
                 background-image: url(../../assets/img/productheader.svg);
                 background-position: top;
                 background-repeat: no-repeat;
-
+            
             }
         }
         &--bb{
@@ -69,6 +71,10 @@
 
         &--bn {
             background-color: orangered;
+        }
+
+        &--btn {
+            background-color: saddlebrown;
         }
     }
     &:hover &__side--front {
@@ -109,7 +115,7 @@
         &--sub {
             position: relative;
             color: $color-black;
-            font-size: 2rem;
+            font-size: 1.6rem;
             left: 1.9rem;
             top: 25%;
         }
