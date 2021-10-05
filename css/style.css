@@ -107,11 +107,13 @@ p {
 .product {
   perspective: 150rem;
   -moz-perspective: 150rem;
+  position: relative;
   height: 52rem;
   width: 32rem;
   background-color: #2d58c8;
   border-radius: 3rem;
-  border: 1rem solid #2d58c8; }
+  border: 1rem solid #2d58c8;
+  list-style: none; }
   .product__side {
     height: 50rem;
     transition: all .8s ease;
@@ -125,7 +127,35 @@ p {
     .product__side--front {
       background-color: #fff; }
     .product__side--back {
-      transform: rotate(180deg); }
+      transform: rotateY(180deg); }
+      .product__side--back-1 {
+        background-color: #fff; }
+  .product__container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: orange;
+    width: 100%; }
+    .product__container__picture {
+      position: fixed;
+      background-image: url(../../assets/img/Logo_small.svg);
+      background-position: top;
+      background-repeat: no-repeat;
+      height: 4rem;
+      padding: 1rem; }
+      .product__container__picture--heading {
+        height: 9rem;
+        background-image: url(../../assets/img/productheader.svg);
+        background-position: top;
+        background-repeat: no-repeat; }
+    .product__container--bb {
+      background-color: aqua; }
+    .product__container--bh {
+      background-color: orange; }
+    .product__container--bn {
+      background-color: orangered; }
+    .product__container--btn {
+      background-color: saddlebrown; }
   .product:hover .product__side--front {
     transform: rotateY(-180deg); }
   .product:hover .product__side--back {
@@ -146,12 +176,28 @@ p {
       background-repeat: no-repeat;
       background-position: top; }
   .product__heading {
+    display: inline-block;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 2.5rem; }
+    .product__heading--sub {
+      position: relative;
+      color: #000;
+      font-size: 1.6rem;
+      left: 1.9rem;
+      top: 25%; }
+  .product__details {
+    position: relative;
+    left: 2rem;
+    top: 25%;
+    font-size: 1.7rem; }
+  .product__btn {
+    position: relative;
+    left: 2rem;
+    top: 45%; }
 
 .home {
   margin: 3rem; }
